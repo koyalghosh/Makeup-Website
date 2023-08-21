@@ -1,5 +1,4 @@
 <!doctype html>
-{% load static %}
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -15,7 +14,7 @@
   <body>
     <nav class="navbar navbar-expand navbar-dark navbar sticky-top" style="background-color: #0005">
       <div class="container">
-        <a class="navbar-brand" href="home.html" style="font-family: Licorice; font-weight: 900; color: black; font-size: 200%;">
+        <a class="navbar-brand" href="index.html" style="font-family: Licorice; font-weight: 900; color: black; font-size: 200%;">
           <img src="photos/logo1.png" alt="Makeup by Riti">
         </a>
       </div>
@@ -23,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item" >
               <a class="nav-link" href="services.html">Services</a>
@@ -32,10 +31,10 @@
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item" >
-              <a class="nav-link active" href="{% url 'contacts'%}">Contact</a>
+              <a class="nav-link active" href="contacts.html">Contact</a>
             </li>
             <li class="nav-item" >
-              <a class="nav-link" href="/about">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
         </div>
@@ -46,16 +45,16 @@
 
     <div class="containergpt">
       <div class="card">
-        <center><img src="{% static 'home/Mail_Gif.gif' %}" style="height: 30%; width: 30%" alt="Example GIF" autoplay="true"></center>
+        <center><img src="photos/Mail_Gif.gif" style="height: 30%; width: 30%" alt="Example GIF" autoplay="true"></center>
         
         <p>Please feel free to contact me via email if you have any questions, comments, or concerns.</p>
         <div class="card-footer">
-          <center><a href="mailto:ishaansaxena313@gmail.com"><button type="button" class="btn btn-dark">Mail</button></a></center>
+          <center><a href="mailto:koyalghosh9928@gmail.com"><button type="button" class="btn btn-dark">Mail</button></a></center>
         </div>
       </div>
   
       <div class="card">
-        <center><img src="{% static 'home/Call_Gif.gif' %}" style="height: 30%; width: 30%; margin-top: 17px; margin-bottom: 17px" alt="Example GIF" autoplay="true"></center>
+        <center><img src="photos/Call_Gif.gif" style="height: 30%; width: 30%; margin-top: 17px; margin-bottom: 17px" alt="Example GIF" autoplay="true"></center>
         
         <p>Please feel free to give me a call if you need any assistance or have any questions.</p>
         <div class="card-footer">
@@ -70,9 +69,9 @@
       <p>Sincerely,</p>
       <p>Riti Batra</p>
       <div class="social-icons">
-        <a href="https://www.instagram.com"><img src={% static 'home/insta_logo.png' %} ></a>
-        <a href="https://www.facebook.com"><img src={% static 'home/fb_logo1.png' %}></a>
-        <a href="https://www.gmail.com"><img src={% static 'home/mail_logo1.png' %}></a>
+        <a href="https://www.instagram.com"><img src="photos/insta_logo.png"></a>
+        <a href="https://www.facebook.com"><img src="photos/fb_logo1.png"></a>
+        <a href="mailto:koyalghosh9928@gmail.com"><img src="photos/mail_logo1.png"></a>
       </div>
     </footer>
   </body>

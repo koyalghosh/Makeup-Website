@@ -1,0 +1,40 @@
+
+        .gorg {
+            position: relative;
+            animation-name: jhanvi1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes jhanvi1 {
+            from {
+                height: 50px;
+            }
+
+            to {
+                height: 150px;
+            }
+        }
+
+        .navbar-brand img{
+            margin-left: 20%;
+            transition: transform .2s;
+            width: 150px;
+            height: auto;
+        }
+        .navbar-brand img:hover{
+            transform:scale(1.5);
+        }
+        footer {
+          background-color: #f2f2f2;
+          padding: 20px;
+          text-align: center;
+        }
+        .social-icons img {
+          height: 30px;
+          margin: 0 10px;
+        }
+        .nav-item a:hover{
+            color: black;
+        }
